@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navontainer start */
+.logo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.navLinks ul{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(86, 84, 84);
+    list-style-type: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: rgb(191, 241, 91);
+    cursor: pointer;
+}
+.navLinks a{
+    cursor: pointer;
+    color:rgb(191, 241, 91) ;
+    text-decoration: none;
+}
+/* navcontainer end */
+
+/* heroontainer start */
+.heroSection{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    background-image: url(./images/gardening1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding:470px 50px 0;
+}
+.jumbotron{
+    width: 100%;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    background-color:rgba(40, 40, 40, 0.423);
+    font-size: 15px;
+    padding: 10px ;
+}
+.jumbotron p{
+    width: 100%;
+    font-family: 'Merienda', cursive;
+    padding-bottom: 20px;
+}
+/* herocontainer end */
+
+
+/* footerontainer start*/
+.footerSection{
+    background-color: rgb(2, 96, 2);
+}
+.gardening-Tips{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(333px,1fr));
+    color: rgb(223, 246, 20);
+    padding: 50px  150px;
+}
+.box{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 2rem;
+    border-right: 1px solid black;
+    line-height: 1.8rem;
+}
+.content h1{
+    color: yellow;
+    font-size: 20px;
+}
+.content p{
+    width: 90%;
+    color: white;
+}
+.gardening-Tips img{
+    border: 1px solid white;
+}
+.Featured-Gardens{
+    width: 90%;
+    /* padding: 20px 50px 20px 150px ; */
+    background-color: white;
+    margin-left: 70px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(169, 164, 164);
+}
+.Featured-Gardens h1{
+    padding: 10px 20px;
+    font-size: 23px;
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.card-Container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin-left: 35px;
+}
+.card{
+    width: 70%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 2px;
+    gap: 2rem;
+    background-color: rgb(124, 186, 124);
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.f-content h1{
+    padding: 10px 15px;
+    font-size: 18px;
+    color: rgb(215, 60, 60);
+    font-family: 'Roboto Slab', serif;
+
+}
+.f-content p{
+    color: black;
+    padding: 0 5px 10px 5px;
+}
+.tips{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 200px;
+    background-color: white;
+    margin-left: 70px;
+}
+.points h1{
+    font-size: 25px;
+    padding: 20px 10px;
+    color:green;
+    font-family: 'Roboto Slab', serif;
+}
+.points p{
+    font-size: 15px;
+    line-height:  2rem;
+}
+.contact-Section{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 50px;
+    margin-left: 70px;
+    background-color: rgb(226, 242, 202);
+}
+.card-Container1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin-right: 25px;
+    gap:2rem;
+}
+.card1{
+    width: 96%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 2px;
+    background-color: rgb(116, 174, 116);
+}
+.card1 img{
+    width: 342px;
+    height: 370px;
+    border-radius: 20px;
+}
+.contact-Content{
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+}
+.contact-Content h2{
+    font-size: 18px;
+}
+.contact-Content button{
+    font-size: 13px;
+    background-color: rgb(77, 72, 72);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+.contact p{
+    line-height: 2rem;
+    color: rgb(91, 80, 80);
+}
+.contact h1{
+    font-size: 25px;
+}
+.writter{
+    color: white;
+    text-align: center;
+    padding:20px ;
+}
+

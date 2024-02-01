@@ -1,0 +1,57 @@
+
+/* navContainer */
+@media(max-width:576px){
+    .logo{
+        margin-top: 10px;
+    }
+    .gardening-Tips{
+        padding: 10px;
+    }
+    .box{
+        width: 100%;
+        padding: 20px;
+        border-right: none;
+    }
+    .content p{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px){
+    .Featured-Gardens{
+        width:80%;
+        margin-left: 43px;
+    }
+    .Featured-Gardens h1{
+        margin-left: 40px;
+    }
+    .card{
+        margin-bottom: 2rem;
+        margin-left: 15px;
+    }
+    .tips{
+        width:80%;
+        flex-direction: column;
+        margin-left: 43px;
+        padding:20px;
+    }
+    .points h1{
+        padding:20px 35px 10px;
+    }
+    .contact-Section{
+        flex-direction: column;
+        width: 80%;
+        margin-left: 43px;
+        padding: 30px;
+    }
+    .card1{
+        width: 100%;
+        margin-left: 13px;
+    }
+    .card1 img{
+        width: 300px;
+    }
+    .card-Container1{
+        padding-bottom: 20px;
+    }
+}
